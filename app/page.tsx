@@ -72,7 +72,11 @@ export default function GoldvargHomeV1() {
         <div className="relative max-w-7xl mx-auto px-8 md:px-10 pt-10 pb-28 md:pt-14 md:pb-36">
           <div className="flex items-center justify-between mb-20">
             <div className="flex items-center gap-4">
-              <div className="h-12 w-12 rounded-2xl flex items-center justify-center text-white font-bold tracking-[0.08em] shadow-lg" style={{ background: `linear-gradient(135deg, ${brand.violet}, ${brand.blue})` }}>GI</div>
+              <img
+                src="/logos/goldvarg-horizontal.png"
+                alt="Goldvarg Ingeniería"
+                className="h-12 w-auto object-contain"
+              />
               <div className="flex items-center gap-2">
                 <div className="w-3 h-3 rounded-full" style={{ backgroundColor: brand.violet }} />
                 <div className="w-3 h-3 rounded-full" style={{ backgroundColor: brand.blue }} />
@@ -195,7 +199,6 @@ export default function GoldvargHomeV1() {
           </div>
         </div>
       </section>
-
       <section className="py-16 bg-white border-b">
         <div className="max-w-7xl mx-auto px-8 md:px-10">
           <div className="flex items-end justify-between gap-8 mb-8">
@@ -234,7 +237,6 @@ export default function GoldvargHomeV1() {
           </div>
         </div>
       </section>
-
       <section className="py-24 bg-white border-b">
         <div className="max-w-7xl mx-auto px-8 md:px-10">
           <div className="flex items-end justify-between gap-8 mb-10">
@@ -250,7 +252,6 @@ export default function GoldvargHomeV1() {
             </p>
           </div>
         </div>
-
         <div className="overflow-hidden">
           <div className="marquee-track flex gap-4 px-8 md:px-10">
             {clientTrack.map((logo, i) => (
@@ -278,7 +279,6 @@ export default function GoldvargHomeV1() {
           </div>
         </div>
       </section>
-
       <section className="py-20" style={{ background: 'linear-gradient(180deg, #f8fafc 0%, #ffffff 100%)' }}>
         <div className="max-w-7xl mx-auto px-8 md:px-10">
           <div className="flex items-end justify-between gap-8 mb-10">
@@ -320,7 +320,6 @@ export default function GoldvargHomeV1() {
                 </div>
               </div>
             </div>
-
             <div className="rounded-[2rem] border bg-slate-900 text-white p-6 md:p-7 flex flex-col justify-between shadow-[0_16px_40px_rgba(15,23,42,0.10)]">
               <div>
                 <p className="text-[11px] uppercase tracking-[0.25em] text-slate-400 mb-3">Dato de caso</p>
@@ -337,7 +336,6 @@ export default function GoldvargHomeV1() {
           </div>
         </div>
       </section>
-
       <section className="py-28 bg-white border-t border-b">
         <div className="max-w-7xl mx-auto px-8 md:px-10">
           <div className="mb-14">
@@ -346,7 +344,6 @@ export default function GoldvargHomeV1() {
               Conocimiento aplicado en industria, logística, servicios y agronegocios.
             </h2>
           </div>
-
           <div className="grid md:grid-cols-2 xl:grid-cols-4 gap-6">
             {specialties.map((item) => (
               <div
@@ -375,7 +372,6 @@ export default function GoldvargHomeV1() {
           </div>
         </div>
       </section>
-
       <section className="py-24 bg-white border-b">
         <div className="max-w-7xl mx-auto px-8 md:px-10 grid lg:grid-cols-[0.95fr_1.05fr] gap-10 items-center">
           <div>
@@ -409,17 +405,21 @@ export default function GoldvargHomeV1() {
           </div>
         </div>
       </section>
-
       <section className="py-28" style={{ background: 'linear-gradient(180deg, #ffffff 0%, #f8fafc 100%)' }}>
         <div className="max-w-7xl mx-auto px-8 md:px-10 grid lg:grid-cols-[1fr_0.95fr] gap-10 items-center">
           <div>
             <p className="text-sm uppercase tracking-[0.28em] text-slate-400 mb-3">Producto propio</p>
             <div className="flex items-center gap-4 mb-6">
-              <div className="h-14 min-w-[88px] rounded-2xl flex items-center justify-center text-white font-bold tracking-[0.08em] shadow-lg" style={{ background: `linear-gradient(135deg, ${brand.violet}, ${brand.blue}, ${brand.lightBlue})` }}>BTN</div>
+              <img
+                src="/logos/btn-logo.png"
+                alt="BTN"
+                className="h-14 w-auto object-contain"
+              />
               <h2 className="text-4xl md:text-5xl font-semibold tracking-[-0.03em]">BTN — Bruto Tara Neto</h2>
             </div>
             <p className="text-xl text-slate-600 leading-9 max-w-3xl mb-10">
-              Producto orientado a mejorar productividad administrativa y trazabilidad en agronegocios. Diseñado para mostrar valor rápido y profundizar luego por módulos, procesos o casos.
+              Producto orientado a mejorar productividad administrativa y trazabilidad en agronegocios. Diseñado para
+              mostrar valor rápido y profundizar luego por módulos, procesos o casos.
             </p>
             <div className="flex flex-wrap gap-4">
               <button
@@ -440,12 +440,11 @@ export default function GoldvargHomeV1() {
                 <p className="text-sm uppercase tracking-[0.25em]" style={{ color: brand.violet }}>
                   Entrada rápida
                 </p>
-                <div
-                  className="h-12 min-w-[110px] rounded-2xl flex items-center justify-center text-white font-semibold"
-                  style={{ background: `linear-gradient(135deg, ${brand.violet}, ${brand.blue}, ${brand.lightBlue})` }}
-                >
-                  BTN
-                </div>
+                <img
+                  src="/logos/btn-logo.png"
+                  alt="BTN"
+                  className="h-10 w-auto object-contain"
+                />
               </div>
               <p className="text-2xl font-semibold leading-tight">
                 Producto de la consultora para agronegocios y procesos administrativos críticos.
@@ -458,7 +457,6 @@ export default function GoldvargHomeV1() {
           </div>
         </div>
       </section>
-
       <section className="py-28 bg-slate-900 text-white relative overflow-hidden">
         <div className="absolute inset-0 opacity-20 editorial-grid" />
         <div
@@ -471,7 +469,8 @@ export default function GoldvargHomeV1() {
             Si la operación necesita más capacidad, mejor nivel de servicio o una decisión de diseño, conversemos.
           </h2>
           <p className="text-lg md:text-xl text-slate-300 leading-9 max-w-3xl mx-auto mb-10">
-            Proyectos de productividad, layout, logística, automatización y agronegocios con criterio ejecutivo y foco en implementación.
+            Proyectos de productividad, layout, logística, automatización y agronegocios con criterio ejecutivo y foco
+            en implementación.
           </p>
           <div className="flex flex-wrap justify-center gap-4">
             <button
