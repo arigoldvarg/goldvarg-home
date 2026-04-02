@@ -20,6 +20,7 @@ html, body {
 
 .marquee-track {
   animation: marquee 28s linear infinite;
+  width: max-content;
 }
 
 .editorial-grid {

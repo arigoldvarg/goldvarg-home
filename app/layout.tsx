@@ -3,7 +3,7 @@ import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: 'Goldvarg Ingeniería',
-  description: 'Productividad, capacidad y nivel de servicio para operaciones que necesitan escalar.',
+  description: 'Mejora de operaciones para aumentar eficiencia, capacidad, ordenar el flujo y sostener el nivel de servicio.',
 }
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
